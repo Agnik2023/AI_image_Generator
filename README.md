@@ -1,4 +1,7 @@
-# AI Image Generator
+#Disclaimer 
+The Idea and Foundation Credit of the Project goes to @JSMastery
+
+## AI Image Generator
 
 A modern full-stack application that leverages OpenAI's DALL-E API to generate images from text prompts. This project allows users to create unique AI-generated artwork and share it with the community.
 
