@@ -1,4 +1,4 @@
-#Disclaimer 
+# Disclaimer 
 The Idea and Foundation Credit of the Project goes to @JSMastery
 
 ## AI Image Generator
