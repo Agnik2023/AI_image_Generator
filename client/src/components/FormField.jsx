@@ -28,7 +28,7 @@ const FormField = ({
         </button>
       )}
     </div>
-    <input
+    {/* <input
       type={type}
       id={name}
       name={name}
@@ -37,7 +37,26 @@ const FormField = ({
       value={value}
       onChange={handleChange}
       required
-    />
+    /> */
+    <input
+  type={type}
+  id={name}
+  name={name}
+  className="w-full rounded-lg p-3 text-sm
+             bg-white dark:bg-gray-800
+             border border-gray-300 dark:border-gray-700
+             text-gray-900 dark:text-gray-100
+             placeholder-gray-400 dark:placeholder-gray-500
+             focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500
+             outline-none
+             transition-colors duration-300"
+  placeholder={placeholder}
+  value={value}
+  onChange={handleChange}
+  required
+/>
+
+    }
   </div>
 );
 
